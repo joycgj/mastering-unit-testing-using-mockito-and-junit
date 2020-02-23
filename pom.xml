@@ -11,6 +11,7 @@
     <modules>
         <module>chapter01</module>
         <module>chapter02</module>
+        <module>chapter07-DemoServletTest</module>
     </modules>
 
     <dependencyManagement>
@@ -30,16 +31,16 @@
                 <artifactId>mockito-core</artifactId>
                 <version>1.9.5</version>
             </dependency>
-            <dependency>
-                <groupId>org.objenesis</groupId>
-                <artifactId>com.springsource.org.objenesis</artifactId>
-                <version>1.0.0</version>
-            </dependency>
-            <dependency>
-                <groupId>org.hamcrest</groupId>
-                <artifactId>com.springsource.org.hamcrest.core</artifactId>
-                <version>1.1.0</version>
-            </dependency>
+<!--            <dependency>-->
+<!--                <groupId>org.objenesis</groupId>-->
+<!--                <artifactId>com.springsource.org.objenesis</artifactId>-->
+<!--                <version>1.0.0</version>-->
+<!--            </dependency>-->
+<!--            <dependency>-->
+<!--                <groupId>org.hamcrest</groupId>-->
+<!--                <artifactId>com.springsource.org.hamcrest.core</artifactId>-->
+<!--                <version>1.1.0</version>-->
+<!--            </dependency>-->
 
         </dependencies>
     </dependencyManagement>

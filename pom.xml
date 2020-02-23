@@ -12,6 +12,7 @@
         <module>chapter01</module>
         <module>chapter02</module>
         <module>chapter07-DemoServletTest</module>
+        <module>chapter07-SpringMvcTest</module>
     </modules>
 
     <dependencyManagement>

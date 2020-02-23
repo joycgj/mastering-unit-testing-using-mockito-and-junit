@@ -8,15 +8,23 @@
         <version>1.0.0</version>
     </parent>
 
-    <artifactId>chapter07-DemoServletTest</artifactId>
+    <artifactId>chapter07-SpringMvcTest</artifactId>
     <packaging>war</packaging>
-    <name>chapter07-DemoServletTest</name>
+    <name>chapter07-SpringMvcTest</name>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
     <dependencies>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-aop</artifactId>
+            <version>3.1.1.RELEASE</version>
+        </dependency>
+
+
+
         <dependency>
             <groupId>javax.servlet</groupId>
             <artifactId>javax.servlet-api</artifactId>
